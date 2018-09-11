@@ -2,7 +2,7 @@
 pipeline {
     agent any
     environment {
-        AWS_ACCESS_KEY_ID     = credentials('test')
+        AWS_ACCESS_KEY_ID     = credentials('hai')
     }
     stages {
         stage('Example') {
