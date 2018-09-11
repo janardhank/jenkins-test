@@ -8,7 +8,7 @@ pipeline {
         stage('Example') {
             steps {
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
-                echo "AWS_ACCESS_KEY_ID"
+                echo "$AWS_ACCESS_KEY_ID"
             }
         }
     }
